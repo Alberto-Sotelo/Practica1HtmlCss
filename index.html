@@ -1,0 +1,131 @@
+	<!DOCTYPE html>
+	<html dir="ltr" lang="mx-MX"></html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="Alberto Sotelo" content="Practica 1" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<title>PRACTICA 1</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<!-- Musica de fondo-->
+	<audio src="bgsound.mp3" autoplay loop></audio>
+	<!--Fin musica de fondo-->
+
+	<!-- Encabezado--> 
+	<header>
+		<a 	href="#" class="logo">ALBERTO </a>
+		<ul>
+			<li> <a href="#acerca">ACERCA DE MÍ</a> </li>
+			<li> <a href="#conocimientos">MIS CONOCIMIENTOS</a> </li> <!--Crear lista  no ordenada-->
+			<li> <a href="#fortaleza">MIS FORTALEZAS</a> </li> <!-- Crear lista Ordenada-->
+			<li> <a href="#proyectos">PROYECTOS</a> </li> <!-- Agregar tabla con columnas 3 proyectos-->
+			<li> <a href="#admiro">ADMIRO</a> </li> <!-- Persona que admiro (Fotografia) -->
+			<li> <a href="#contacto">CONTACTO</a> </li>
+		</ul>
+	</header>	
+	<!-- Banner de la pagina -->
+		<section class="banner"> </section>
+			<script type="text/javascript">
+				window.addEventListener("scroll",function(){
+					var header = document.querySelector("header");
+					header.classList.toggle("sticky", window.scrollY > 0)
+				})
+			</script>
+	<!-- FIN DEL ENCABEZADO Y BANNER-->
+
+
+	<!-- Secciones de info-->
+	<nav class="clearfix"></nav>
+	<div id="Practica">
+
+		<section class="informacion"> </section>
+
+			<article class="informacion">
+				<h1><div id="acerca"  ><b>Acerca de mí</b></div> </h1>
+					<p>Mi nombre es Alberto Sotelo. Tengo 23 años, actualmente vivo en la zona Zapopan, y no estoy casado.<br />
+						Cada día me voy a casa como muy tarde a las 9.<br />
+						No fumo, pero a veces bebo,  me voy a la cama  a las 11 y siempre procuro dormir un mínimo de 8 horas al día.<br />
+						Antes de irme a dormir bebo  leche caliente , relajo el cuerpo haciendo 20 minutos de estiramientos y suelo dormir como un tronco.<br />
+						Me despierto sin cansancio o estrés alguno igual que un bebé, ninguna anomalía en mis chequeos médicos estoy como un roble.<br /><br />
+					</p>
+			</article>
+
+			<article class="informacion">        
+			<h2> <div id="conocimientos"><b>Mis conocimientos</b></div> </h2>
+			<br><ul>
+						<li>Lenguaje python</li>
+						<li>Lenguaje C</li>
+						<li>Lenguaje C++</li>
+						<li>Lenguaje PHP</li>
+						<li>Lenguaje HTML</li>
+						<li>MySQL</li>
+						<li></li>
+					</ul> </br>
+			</article>
+		<article class="informacion">
+			<h3><div id="fortaleza"><b>Mis fortalezas</b></h3>
+				<ol>
+					<li>Liderazgo</li>
+					<li>Habilidad del habla</li>
+					<li>Dedicado</li>
+					<li>Control de situacions</li>
+					<li>Tomar desiciones bajo estres</li>
+					<li>Aprendizaje rápido</li>
+				</ol>
+		</article>
+	<!-- Tabla de proyectos-->
+			<article class="table">
+				<div class="container"></div>
+				<h4> <div id="proyectos"><b>Proyectos</b></h4>
+					<table class="table">
+						<table class="table">
+							<thead>
+							<tr>
+								<th>PROYECTOS</th>
+								<th>LENGUAJE</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr class="active">
+								<td>Base de datos gym</td>
+								<td>MySQL</td>
+							</tr>
+							<tr>
+								<td>Videojuego Pong</td>
+								<td>C</td>
+							</tr>
+							<tr>
+								<td>Landing page "XtraLIfe"</td>
+								<td>Html, CSS, PHP,MySQL</td>
+							</tr>
+							</tbody>
+						</table>
+					
+			</article>
+<!-- Fin de la tabla-->
+		<article class="Keanu">
+			<h4></h2><div id="admiro"><b>Persona que admiro</b></h4>
+				<p><b>Keanu Reeves</b></p>
+				<p> Keanu Charles Reeves​ es un actor y músico canadiense.<br />​ Tiene entre su repertorio las comedias de la
+					 franquicia de Bill y Ted; los thrillers de acción Point Break, Speed y la franquicia
+					  John Wick; el thriller psicológico The Devil's Advocate; el thriller sobrenatural Constantine; y la saga de ciencia ficción y acción The Matrix..</p>
+				<left><image src="keanu.jpg", weigth= 1000px, width= 800px, alt="Keanu Reeves en Cyberpunk 2077"></left>
+				<center><p><a href= "https://es.wikipedia.org/wiki/Keanu_Reeves" target="_blank"  font face="Impact" style="color: #fff" >Biografía de Keanu</a></p></center>
+		</article>
+		</section>
+			<div class="Contacto">
+				<footer>
+				<div id="contacto"><right><a href="mailto:irving.sotelo6543@alumnos.udg.mx?Subject=Correo%20para%20Alberto%20Sotelo" style="color: rgba(0, 233, 58, 0.836)"><b>CONTACTAME</b></a></right></div>
+				</div></footer>
+			</div>
+		
+	</div>
+
+
+	</body>
+	</html>
